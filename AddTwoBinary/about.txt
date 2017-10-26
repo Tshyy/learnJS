@@ -1,0 +1,6 @@
+Given two binary strings, return their sum(also a binary string).
+for example,
+
+a="11"
+b="1"
+return "100"
