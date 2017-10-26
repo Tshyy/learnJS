@@ -99,7 +99,7 @@ function LinkedList(){
        arr.push(current.element);
        current = current.next;
      }
-     return arr.toString();
+     return arr ==[] ? arr.toString() : null;
    };
    this.print = function(){
      current=head;
@@ -109,26 +109,26 @@ function LinkedList(){
      }
    };
 }
-//单向链表测试用例
-// var s= new LinkedList();
-// s.append(0);
-// s.append(1);
-// s.append(2);
-// s.append(3);
-// s.append(4);
-//
-// s.size();
-//
-// s.toString();
-//
-// s.indexOf(0);
-// s.indexOf(2);
-// s.indexOf(4);
-//
-// s.toString();
-//
-// s.atInsert(0,-1);
-// s.atInsert(3,-3);
-// s.atInsert(6,-2);
-//
-// s.remove(-1)
+// 单向链表测试用例
+var s= new LinkedList();
+s.append(0);
+s.append(1);
+s.append(2);
+s.append(3);
+s.append(4);
+
+s.size();
+
+s.toString();
+
+s.indexOf(0);
+s.indexOf(2);
+s.indexOf(4);
+
+s.toString();
+
+s.atInsert(0,-1);
+s.atInsert(3,-3);
+s.atInsert(6,-2);
+
+s.remove(-1)
