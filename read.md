@@ -8,7 +8,7 @@
 
 
 
-# Some interesting algorithm problem
+# Some interesting algorithm problems
 
 ## AddTwoBinary
 - Add two binary string, output a binary string finally
